@@ -1,0 +1,28 @@
+Date/time: 0 or 0xffffffff = invalid data/time
+
+PE structure
+------------
+MS-DOS 2.0 Compatible EXE Header
+unused
+OEM Identifier
+OEM Information
+Offset to PE Header
+MS-DOS 2.0 Stub Program and Relocation Table
+unused
+PE Header (aligned on 8-byte boundary)
+Section Headers
+Image Pages:
+	Import Info
+	Export Info
+	Base Relocations
+	Resource Info
+	
+COFF structure
+--------------
+COFF Header
+Section Headers
+Raw Data:
+	Code
+	Data
+	Debug Info
+	Relocations
